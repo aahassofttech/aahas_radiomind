@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { NextRequest, NextResponse } from "next/server";
 import { getPostById, updatePost, deletePost, toggleStatus } from "@/lib/posts";
 import { BlogPostInput } from "@/types/blog";
